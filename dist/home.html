@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LogicLabs -Web Page dev</title>
+</head>
+<body class="bg-slate-900">
+    <!-- nav bar goes here -->
+    <nav class="w-full h-14 bg-[color:##0c2742;] flex justify-between px-4 items-center md:px-4">
+        <div class="text-2xl text-indigo-50 font-bold cursor-pointer">LogicLabSoftware</div>
+        <ul class="md:flex font-semibold hidden text-white">
+            <li class="hover:text-gray-200 mx-[10px] cursor-pointer">Home</li>
+            <li class="hover:text-gray-200 mx-[10px] cursor-pointer">About us</li>
+            <li class="hover:text-gray-200 mx-[10px] cursor-pointer">Contact us</li>
+        </ul>
+        <div class="hidden  text-black hover:bg-slate-300 md:block px-2 py-2 bg-indigo-50  rounded font-bold cursor-pointer">
+            Login/Signup</div>
+            <div class="md:hidden"> 
+                <!-- we have used entity below to get the hamburger icon -->
+                <a class="text-4xl text-white" href="#">&#8801;</a>
+            </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- image section starts here  -->
+    <div class="relative">
+        <div class="w-full h-screen blur-md bg-cover brightness-50 bg-[url('./img.jpg')] mb-4">
+        </div>
+        <div class="absolute top-0 left-0 right-0 bottom-0 flex md:flex-row flex-col justify-evenly items-center p-7">
+            <div class="flex flex-col">
+                <p class="text-3xl blur-0 uppercase text-white font-bold font-sans p-6 md:text-4xl md:p-2">One stop solution for all your <br> software needs!!!</p>
+            <p class="text-slate-300 sm:pl-6 md:p-2">"Powerful Tools, Proven Results - Revolutionize Your Bussiness!"
+            </p>
+            </div>
+           <div class="flex flex-col">
+            <div class="md:w-60 text-md text-center text-red-100 bg-transparent rounded-2xl p-3 cursor-pointer mt-5 hover:shadow-lg hover:shadow-red-100 border border-red-100"><a href="#softSec"><img class="inline w-5 h-5 mr-2" src="./route.png" alt="">Get Started</a></div>
+            <div class="text-md text-center text-red-100 bg-transparent rounded-2xl p-3 cursor-pointer mt-5 hover:shadow-lg hover:shadow-red-100 border border-red-100"><a href="tel:7447553161"><img class="inline w-5 h-5 mr-2" src="./call.png" alt="">Reach Us</a></div>
+            <div class="text-md text-center text-red-100 bg-transparent rounded-2xl p-3 cursor-pointer mt-5 hover:shadow-lg hover:shadow-red-100 border border-red-100"><a href="#"><img class="inline w-5 h-5 mr-2" src="./cubes.png" alt="">Products</a></div>
+           </div>
+            <!-- <img class="w-full blur-md brightness-50 hidden  md:block" src="./img.jpg" alt="">
+            <img class="w-full blur-md brightness-50 md:hidden" src="./imgv.jpg" alt=""> -->
+        </div> 
+    </div>
+    <!-- image section ends here  -->
+
+    <!-- student section -->
+
+    <div id="softSec" class="w-full h-auto flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <p  class="text-3xl font-bold text-indigo-300 text-center md:text-4xl">"Excellence in management software devs"
+
+            </p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-4"></div>
+            <div class="w-full flex flex-wrap justify-evenly">
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-40 h-40" src="./users.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-40 h-40" src="./money.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-40 h-40" src="./computer.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- product section -->
+
+    <div class="w-full h-auto flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <p class="text-3xl font-bold text-indigo-300 text-center md:text-4xl">
+                "Our Services"
+
+            </p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-4"></div>
+            <div class="w-full flex flex-wrap justify-evenly mb-2">
+                <div class="w-46 flex flex-col mb-12 border-white border-2 rounded-xl p-2">
+                    <img class="w-28 h-28" src="./users.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-28 h-28" src="./money.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-28 h-28" src="./computer.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-28 h-28" src="./users.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-28 h-28" src="./money.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+                <div class="w-46 flex flex-col mb-12">
+                    <img class="w-28 h-28" src="./users.svg" alt="">
+                    <p class="text-4xl text-white font-serif">600+</p>
+                    <p class="text-base text-slate-300">Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section starts here -->
+    <footer class="flex flex-col md:flex-row justify-between bg-gray-800 mt-5">
+        <div class="flex flex-col p-5">
+            <p class="text-xl text-white font-sans p-2">Contact Us</p>
+            <div class="ml-2 w-32 rounded-xl border-2 border-yellow-500 mb-2"></div>
+            <p class="text-md text-white font-sans p-2"><a href="email:support@logiclabsoftware.com">Email: support@logiclabsoftware.com</a></p>
+            <p class="text-md text-white font-sans p-2"><a href="tell:7447553161">Ph no: 7447553161</a></p>
+        </div>
+
+        
+        <div class="flex flex-col p-5">
+            <p class="text-xl text-white font-sans p-2">Products</p>
+            <div class="ml-2 w-24 rounded-xl border-2 border-yellow-500 mb-2"></div>
+            <p class="text-md text-white font-sans p-2"><a href="email:support@logiclabsoftware.com">Inventory Management Softwares</a></p>
+            <p class="text-md text-white font-sans p-2"><a href="tell:7447553161">Static websites</a></p>
+            <p class="text-md text-white font-sans p-2"><a href="tell:7447553161">Dynamic Websites</a></p>
+        </div>
+        <div class="flex flex-col p-5">
+            <p class="text-xl text-white font-sans p-2">Links</p>
+            <div class="ml-2 w-16 rounded-xl border-2 border-yellow-500 mb-2"></div>
+            <p class="text-md text-white font-sans p-2"><a href="email:support@logiclabsoftware.com">Faqs</a></p>
+            <p class="text-md text-white font-sans p-2"><a href="tell:7447553161">Privacy Policy</a></p>
+            <p class="text-md text-white font-sans p-2"><a href="tell:7447553161">Pricing</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
